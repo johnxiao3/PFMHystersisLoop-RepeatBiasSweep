@@ -1,29 +1,30 @@
-﻿Build started 7/6/2017 1:55:23 PM.
-     1>Project "D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\diamondGUI.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 7/13/2017 4:47:20 PM.
+     1>Project "D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\diamondGUI.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\diamondGUI.lastbuildstate".
+       InitializeBuildStatus:
          Creating "x64\Debug\diamondGUI.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include /Zi /nologo /W3 /WX- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vcWindows7.1SDK.pdb" /Gd /TP /errorReport:prompt ..\diamondGUI.cpp
          diamondGUI.cpp
-     1>..\diamondGUI.cpp(96): warning C4244: 'argument' : conversion from 'float' to 'DWORD', possible loss of data
+     1>..\diamondGUI.cpp(105): warning C4244: 'argument' : conversion from 'float' to 'DWORD', possible loss of data
      1>..\diamondGUI.cpp(68): warning C4101: 'ii' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll" /NOLOGO /LIBPATH:..\..\..\.. /LIBPATH:..\..\..\..\..\Build\x64\Debug z.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\diamondGUI.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /DELAY:UNLOAD /IMPLIB:"D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.lib" /MACHINE:X64 /DLL x64\Debug\diamondGUI.obj
-         LINK : D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll not found or not built by the last incremental link; performing full link
-            Creating library D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.lib and object D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.exp
-         diamondGUI.vcxproj -> D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll" /NOLOGO /LIBPATH:..\..\..\.. /LIBPATH:..\..\..\..\..\Build\x64\Debug z.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\diamondGUI.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /DELAY:UNLOAD /IMPLIB:"D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.lib" /MACHINE:X64 /DLL x64\Debug\diamondGUI.obj
+            Creating library D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.lib and object D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.exp
+         diamondGUI.vcxproj -> D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll
        Manifest:
-         C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\mt.exe /nologo /verbose /outputresource:"D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll;#2" /manifest x64\Debug\diamondGUI.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\mt.exe /nologo /verbose /outputresource:"D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll;#2" /manifest x64\Debug\diamondGUI.dll.intermediate.manifest
        PostBuildEvent:
-         xcopy "D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll" "D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\..\..\" /F /Y
+         xcopy "D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll" "D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\..\..\" /F /Y
          :VCEnd
-         D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll -> D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI.dll
+         D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\x64\Debug\diamondGUI.dll -> D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI.dll
          1 File(s) copied
        FinalizeBuildStatus:
          Deleting file "x64\Debug\diamondGUI.unsuccessfulbuild".
          Touching "x64\Debug\diamondGUI.lastbuildstate".
-     1>Done Building Project "D:\Program Files\NanoScope\9.1\nanoscript\demoscripts\diamondGUI\VS2010 C++ Express Solution\diamondGUI.vcxproj" (build target(s)).
+     1>Done Building Project "D:\Program Files\NanoScope\9.1\nanoscript\PFMHystersisLoop-RepeatBiasSweep\diamondGUI\VS2010 C++ Express Solution\diamondGUI.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.75
+Time Elapsed 00:00:01.44

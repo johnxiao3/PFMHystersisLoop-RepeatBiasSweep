@@ -86,12 +86,21 @@ while(1)
 	else
 	{
 		if (abs(Volt_now)>V_max)
-		{	flag=-flag;
+		{	
+			if (Volt_now<0)
+			{
+				LithoScan(true);			// turn on scanning
+				Sleep(2*1000);
+				LithoScan(false);
+				LithoCenterXY();
+			}
+			flag=-flag;
 			Volt_now+=(V_step*flag);
 		}	
 		else
 		{	
 			Volt_now+=(V_step*flag);
+
 			LithoPulse(lsBias,Volt_now*1000,pulse_dura);
 			Sleep(post_pulse_time*1000);
 			double amp=1000*LithoGetSoft(lsNS5FPOutput1);
