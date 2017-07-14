@@ -1,4 +1,4 @@
-// diamondGUI.cpp
+  // diamondGUI.cpp
 // Demo of writing a Nanoscript lithography script with GUI features
 // Adds a dialog box to the diamond.cpp example
 
@@ -101,7 +101,7 @@ while(1)
 		{	
 			Volt_now+=(V_step*flag);
 
-			LithoPulse(lsBias,Volt_now*1000,pulse_dura);
+			LithoSet(lsBias,Volt_now*1000);
 			Sleep(post_pulse_time*1000);
 			double amp=1000*LithoGetSoft(lsNS5FPOutput1);
 			amp=amp+1000*LithoGetSoft(lsNS5FPOutput1);
@@ -118,6 +118,7 @@ while(1)
 	}
 }
 AA:
+	LithoSet(lsBias, 0);
 	myfile.close(); //close the file.
 	Beep(300,1000);
 	//======================================================================================================================================================
